@@ -29,6 +29,12 @@ tasks {
         dependsOn(applyAccessWideners)
     }
 
+    processResources {
+        filesMatching("ignite.mod.json") {
+            expand("version" to project.version)
+        }
+    }
+
     withType<Jar> {
         archiveBaseName = "${rootProject.name}-${project.name}-$minecraftVersion"
         archiveClassifier = null

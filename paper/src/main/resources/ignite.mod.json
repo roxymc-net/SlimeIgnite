@@ -1,6 +1,6 @@
 {
   "id": "slime-worlds",
-  "version": "1.0.0",
+  "version": "${version}",
   "mixins": [
     "slime-worlds.mixins.json"
   ],
