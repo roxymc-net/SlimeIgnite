@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "net.roxymc.slime.ignite.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "ChunkHolderManagerMixin",
+    "ChunkLoadTaskMixin",
+    "GenericDataLoadTaskMixin",
+    "MinecraftServerMixin",
+    "RegionFileStorageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,8 @@
+accessWidener v2 named
+
+accessible class ca/spottedleaf/moonrise/patches/chunk_system/scheduling/task/GenericDataLoadTask$LoadDataFromDiskTask
+accessible method ca/spottedleaf/moonrise/patches/chunk_system/scheduling/task/ChunkLoadTask$ChunkDataLoadTask <init> (Lca/spottedleaf/moonrise/patches/chunk_system/scheduling/ChunkTaskScheduler;Lnet/minecraft/server/level/ServerLevel;IILca/spottedleaf/concurrentutil/util/Priority;)V
+accessible method net/minecraft/world/level/chunk/storage/SerializableChunkData makeBiomeCodec (Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/Codec;
+accessible method net/minecraft/world/level/chunk/storage/SerializableChunkData makeBiomeCodecRW (Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/Codec;
+accessible method net/minecraft/world/level/chunk/storage/SerializableChunkData postLoadChunk (Lnet/minecraft/server/level/ServerLevel;Ljava/util/List;Ljava/util/List;)Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;
+extendable class ca/spottedleaf/moonrise/patches/chunk_system/scheduling/task/ChunkLoadTask$ChunkDataLoadTask

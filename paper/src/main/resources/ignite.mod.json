@@ -1,0 +1,10 @@
+{
+  "id": "slime-worlds",
+  "version": "1.0.0",
+  "mixins": [
+    "slime-worlds.mixins.json"
+  ],
+  "wideners": [
+    "slime-worlds.accesswidener"
+  ]
+}
