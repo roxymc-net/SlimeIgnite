@@ -36,7 +36,7 @@ tasks {
     }
 
     withType<Jar> {
-        archiveBaseName = "${rootProject.name}-${project.name}-$minecraftVersion"
+        archiveBaseName = "${rootProject.name}-${project.name}"
         archiveClassifier = null
     }
 }
